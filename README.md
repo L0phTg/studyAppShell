@@ -10,3 +10,27 @@ DexShellTools时一个java项目, 用来对源Apk和脱壳dex进行合成.
 
 
 操作好的apk文件在ReforceApk/app/build/outputs/apk/app-debug_sign.apk
+
+
+
+
+## 新增的动态加载的项目
+
+
+1.  Dynamic
+
+
+2. HostActivityA
+
+PluginActivityA               这两个项目为反射动态加载apk
+
+运行时要先将PluginActivityA push 到 /data/data/com.example.l0phtg.hostactivitya/cache 后, 宿主app才能够正确加载插件apk
+
+
+3. ClientDL
+
+HostDL                       这两个项目为代理动态加载apk
+
+
+运行时要先将PluginActivityB(ClientDL编译生成的apk) push 到 /data/data/com.example.l0phtg.hostdl/cache 后, 宿主app才能够正确加载插件apk
+
