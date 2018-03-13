@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DynamicLoadApplication.iml" filepath="$PROJECT_DIR$/DynamicLoadApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commoninterfacelibrary/commoninterfacelibrary.iml" filepath="$PROJECT_DIR$/commoninterfacelibrary/commoninterfacelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamiclibrary/dynamiclibrary.iml" filepath="$PROJECT_DIR$/dynamiclibrary/dynamiclibrary.iml" />
+    </modules>
+  </component>
+</project>
